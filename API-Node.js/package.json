@@ -7,7 +7,7 @@
   "license"      : "MIT",
   "repository"   : {
     "type" : "git",
-    "url" : "git://github.com/jpgouigoux/skeleton.git"
+    "url" : "git://github.com/jpg-ouigoux/skeleton.git"
   },
   "dependencies" : {
     "express"         : "~4.7.2",
