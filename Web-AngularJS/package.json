@@ -1,0 +1,15 @@
+{
+  "name"         : "gui-skeleton",
+  "version"      : "0.0.1",
+  "description"  : "Skeleton for a Node.js / AngularJS web interface",
+  "main"         : "index.js",
+  "author"       : "JP Gouigoux <jp.gouigoux@free.fr>",
+  "license"      : "MIT",
+  "repository"   : {
+    "type" : "git",
+    "url" : "git://github.com/jpgouigoux/skeleton.git"
+  },
+  "dependencies" : {
+    "express"         : "~4.7.2"
+  }
+}

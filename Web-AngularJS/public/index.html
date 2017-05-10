@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app="skeletonApp">
+
+<head>
+    <title>Skeleton application</title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <script src="./app.js"></script>
+</head>
+
+<body ng-controller="mainController">
+    <div class="container">
+        <div id="section1" class="col-sm-5">
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control input-lg" required>Exemple de texte obligatoire</input>
+                    <input type="number" class="form-control input-lg" placeholder="Utiliser un entier positif" ng-model="createForm.start">Exemple de nombre</input>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg" ng-click="executerTraitement()">Executer traitement</button>
+    	        <label>{{retourAffichage}}</label>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
