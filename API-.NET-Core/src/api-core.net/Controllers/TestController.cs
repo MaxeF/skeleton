@@ -9,7 +9,7 @@ namespace api_core.net.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return new ObjectResult("Retour simple");
+            return new ObjectResult("Test OK");
         }
     }
 }

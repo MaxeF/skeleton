@@ -11,7 +11,7 @@ def test():
 
     print "On entre dans la méthode /test"
 
-    response = make_response("[contenu]")
+    response = make_response("Test OK")
     response.mimetype = 'application/json'
     return response
 

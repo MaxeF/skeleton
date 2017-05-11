@@ -19,5 +19,5 @@ app.use(bodyParser.urlencoded({
 
 app.get('/', function(req, res) {
     res.status(200);
-    res.send("La racine de l'API répond");
+    res.send("Test OK");
 });
