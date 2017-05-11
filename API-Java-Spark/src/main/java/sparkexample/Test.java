@@ -7,8 +7,7 @@ public class Test {
     public static void main(String[] args) {
         setPort(80);
 
-        post("/testAPI", (request, response) -> {
-            System.out.println("Dans la fonction testAPI");
+        get("/", (request, response) -> {
             return "Test OK";
         });
     }
