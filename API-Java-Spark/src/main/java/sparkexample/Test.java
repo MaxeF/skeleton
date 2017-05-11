@@ -8,8 +8,8 @@ public class Test {
         setPort(5000);
 
         post("/testAPI", (request, response) -> {
-			System.out.println("Dans la fonction testAPI");
+            System.out.println("Dans la fonction testAPI");
+            return "Test OK";
         });
-
     }
 }
