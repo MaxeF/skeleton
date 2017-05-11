@@ -6,7 +6,7 @@ import requests, json
 
 app = Flask(__name__)
 
-@app.route('/test', methods=['GET'])
+@app.route('/', methods=['GET'])
 def test():
 
     print "Entering /test method"
