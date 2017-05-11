@@ -4,7 +4,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var jsonPatch = require('fast-json-patch');
 
-var listener = 8080;
+var listener = 80;
 
 var server = http.createServer(app);
 server.listen(listener);
