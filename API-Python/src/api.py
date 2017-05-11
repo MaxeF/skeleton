@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/test', methods=['POST'])
 def test():
 
-    print "On entre dans la méthode /test"
+    print "Entering /test method"
 
     response = make_response("Test OK")
     response.mimetype = 'application/json'
