@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y maven
 
 WORKDIR /code
 
+
 # Prepare by downloading dependencies
 ADD pom.xml /code/pom.xml
 RUN ["mvn", "dependency:resolve"]
